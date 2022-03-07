@@ -12,7 +12,11 @@
 */
 
 //CODE HERE
+// let helloWorld = function(){
+//   console.log(`Hello, World!`)
+// }
 
+// helloWorld()
 
 ////////////////// PROBLEM 2 ////////////////////
 
@@ -21,7 +25,9 @@
 */
 
 //CODE HERE
+// const jsNinja = () => console.log(`I am a JavaScript ninja!`)
 
+// jsNinja()
 
 ////////////////// PROBLEM 3 ////////////////////
 /*
@@ -31,7 +37,12 @@
 */
 
 //CODE HERE
+// let printName = function(name){
+//   console.log(name)
+// }
 
+
+// printName(`Kent`)
 
 ////////////////// PROBLEM 4 ////////////////////
 /*
@@ -45,8 +56,10 @@
 */
 
 //CODE HERE
-
-
+// let greeting = function(name){
+//   console.log(`Hello ${name}`)
+// }
+// greeting(`Kent`)
 ////////////////// PROBLEM 5 ////////////////////
 
 /*
@@ -59,8 +72,20 @@
 */
 
 //CODE HERE
+// let compareNums = (num1, num2) => {
+//   if (num1 > num2) {
+//     return num1
+//   } else if (num1 < num2){
+//     return num2
+//   } else if (num1 === num2){
+//     return num2
+//   }
+// }
 
 
+// let numbers = compareNums(6, 6)
+
+// console.log(`numbers ${numbers}`)
 ////////////////// PROBLEM 6 ////////////////////
 /*
   Create a function called add that takes in two parameters 
@@ -70,7 +95,13 @@
 */
 
 //CODE HERE
-
+// let addition = function(num1 ,num2){
+//   let numString1 = parseInt(num1)
+//   let numString2 = parseInt(num2)
+//   return numString1 + numString2
+// }
+// let answer = addition(`8`, `5`)
+// console.log(answer)
 
 ////////////////// PROBLEM 7 ////////////////////
 
@@ -85,7 +116,7 @@ const exclaim = function(str) {
 
 // arrow
 // declaration
-// expression
+// expression This one
 
 
 
@@ -100,7 +131,7 @@ const exclaimTwo = str => {
   return str.toUpperCase() + '!!!'
 }
 
-// arrow
+// arrow This one
 // declaration
 // expression
 
@@ -111,7 +142,7 @@ const exclaimTwo = str => {
   Brownie points if you use a template string
 */
 
-
+const exclaimThree = str => str.toUpperCase() + `!!!`
 
 ////////////////// PROBLEM 9 ////////////////////
 
@@ -125,7 +156,7 @@ function exclaimFour(str) {
 }
 
 // arrow
-// declaration
+// declaration This one
 // expression
 
 
@@ -139,7 +170,15 @@ function exclaimFour(str) {
 */
 
 //CODE HERE
-
+// const nameCheck = function(name){
+//   if (name === `Steven`){
+//   return `What is up Steven?`
+// }; if (name === `Bryan`){
+//   return `Hey Bryan!`
+// } else {return `Cool name, ${name}`}
+// }
+// let nameGreeting = nameCheck(`Steven`)
+// console.log(nameGreeting)
 
 ////////////////// PROBLEM 11 ////////////////////
 /*
@@ -152,8 +191,18 @@ function exclaimFour(str) {
 */
 
 //CODE HERE
-
-
+// const faveColorFinder = function(color){
+//   if (color === `red`){
+//     return `red is a great color`
+//   } if (color === `green`){
+//     return `green is a solid favorite color`
+//   } if (color === `black`){
+//     return `so trendy`
+//   } else 
+//   return `you need to evaluate your favorite color choice`
+// }
+// colorRating = faveColorFinder(`blue`)
+// console.log(colorRating)
 ////////////////// PROBLEM 12 ////////////////////
 let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
 /*
@@ -163,8 +212,14 @@ let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
 */
 
 //CODE HERE
-
-
+// const printAllNames = function(array){
+//   for (i = 0; i < array.length; i++){
+//     arrLength = i + 1
+//   }
+//   for (i = 0; i < arrLength; i++)
+//   console.log(namesArr[i])
+// }
+// printAllNames(namesArr)
 ////////////////// PROBLEM 13 ////////////////////
 /*
   Create a function called thatsOdd that takes in a single argument (a number).
@@ -174,8 +229,13 @@ let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
 */
 
 //CODE HERE
-
-
+// const thatsOdd = function(number){
+//   if (number % 2 === 0){
+//     return `That's not odd!`
+//   } else return `That is odd indeed!`
+// }
+// let oddChecker = thatsOdd(5)
+// console.log(oddChecker)
 ////////////////// PROBLEM 14 ////////////////////
 
 /*
@@ -187,8 +247,10 @@ let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
 */
 
 //CODE HERE
-
-
+// const bestMovie = (movie) => {return `${movie} is the best movie ever!`
+// }
+// let movieCheck = bestMovie(`LOTR`)
+// console.log(movieCheck)
 ////////////////// PROBLEM 15 ////////////////////
 let bigOrSmallArray = [1,101, 102, 2, 103, 4, 5, 6, 107]
 /* 
