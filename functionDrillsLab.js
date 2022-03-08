@@ -211,12 +211,9 @@ let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
   Call the function, passing in the `namesArr` array (above).
 */
 
-//CODE HERE
+// //CODE HERE
 // const printAllNames = function(array){
-//   for (i = 0; i < array.length; i++){
-//     arrLength = i + 1
-//   }
-//   for (i = 0; i < arrLength; i++)
+//   for (i = 0; i < array.length; i++)
 //   console.log(namesArr[i])
 // }
 // printAllNames(namesArr)
@@ -234,7 +231,7 @@ let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
 //     return `That's not odd!`
 //   } else return `That is odd indeed!`
 // }
-// let oddChecker = thatsOdd(5)
+// let oddChecker = thatsOdd(7)
 // console.log(oddChecker)
 ////////////////// PROBLEM 14 ////////////////////
 
@@ -263,8 +260,21 @@ let bigOrSmallArray = [1,101, 102, 2, 103, 4, 5, 6, 107]
 */
 
 //CODE HERE
+// const bigOrSmall = function(arr)
+// {
+//   let answers = []
+//   for (i = 0; i < arr.length; i++)
+//   {
+//     if (bigOrSmallArray[i] > 100)
+//     answers.push(`Big`)
+//     else answers.push(`Small`)
+//   } 
+//   return answers
+// }
 
 
+// let arrayEvaluator = bigOrSmall(bigOrSmallArray)
+// console.log(arrayEvaluator)
 ////////////////// PROBLEM 16 ////////////////////
 let contestants = ['Katniss', 'Peeta', 'Fox-face', 'Glimmer', 'Cato', 'Rue', 'Thresh', 'Clove', 'Marvel']
 let loser = 'Glimmer'
@@ -274,8 +284,19 @@ let loser = 'Glimmer'
 */
 
 //CODE HERE
-
-
+// let theEliminator = function(names, money)
+// {
+//   let blue = 0
+//   for (i = 0; i < names.length; i++)
+//   {
+//     if (names[i] === money)
+//     {
+//       blue = i
+//     }
+//   } names.splice(blue, 1)
+// }
+// theEliminator(contestants, loser)
+// console.log(contestants)
 ////////////////// PROBLEM 17 ////////////////////
 let sampleString = "Hi, my name is Kylo."
 /*
@@ -284,8 +305,10 @@ let sampleString = "Hi, my name is Kylo."
 */
 
 //CODE HERE
-
-
+// const blue = function(arr){
+//   console.log(arr.toUpperCase())
+// }
+// blue(sampleString)
 ////////////////// PROBLEM 18 ////////////////////
 /*
   Write a function called emailCheck that takes in
